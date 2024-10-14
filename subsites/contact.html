@@ -8,24 +8,6 @@
     <link rel="icon" href="../images/main.png">
     <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux&display=swap" rel="stylesheet">
     <meta name="keywords" content="Fly, flywheel, contact">
-    <script>
-        // Funkcja do wykrywania urządzenia
-        function detectDevice() {
-            const isMobile = /Mobi|Android/i.test(navigator.userAgent);
-            if (isMobile) {
-                document.body.classList.add('mobile');
-                // Możesz dodać dodatkowe style dla urządzeń mobilnych
-            } else {
-                document.body.classList.add('desktop');
-            }
-        }
-    
-        // Wywołaj funkcję po załadowaniu strony
-        window.onload = function() {
-            detectDevice();
-            document.body.classList.add('loaded');
-        };
-    </script>
     
 </head>
 <body>

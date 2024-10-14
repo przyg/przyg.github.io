@@ -6,25 +6,7 @@
     <title>Fly's Projects</title>
     <link rel="stylesheet" href="../styles3.css"> <!-- Link to the new CSS file -->
     <link rel="icon" href="../images/main.png">
-    <script>
-        // Funkcja do wykrywania urządzenia
-        function detectDevice() {
-            const isMobile = /Mobi|Android/i.test(navigator.userAgent);
-            if (isMobile) {
-                document.body.classList.add('mobile');
-                // Możesz dodać dodatkowe style dla urządzeń mobilnych
-            } else {
-                document.body.classList.add('desktop');
-            }
-        }
-    
-        // Wywołaj funkcję po załadowaniu strony
-        window.onload = function() {
-            detectDevice();
-            document.body.classList.add('loaded');
-        };
-    </script>
-    
+  
 </head>
 <body>
     <nav class="navbar">
