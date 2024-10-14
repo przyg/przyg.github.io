@@ -127,3 +127,37 @@ p {
     line-height: 1.6; /* Wysokość linii dla lepszej czytelności */
     margin-bottom: 15px; /* Odstęp między akapitami */
 }
+/* Styl dla przycisków */
+.button {
+    background-color: rgba(255, 255, 255, 0.1); /* Półprzezroczyste tło */
+    color: white; /* Biały tekst */
+    padding: 10px 20px; /* Wewnętrzne marginesy */
+    border: 2px solid rgba(255, 255, 255, 0.7); /* Przezroczysta ramka */
+    border-radius: 10px; /* Zaokrąglone rogi */
+    font-size: 1.1em; /* Większy tekst */
+    cursor: pointer; /* Zmienienie kursora na wskaźnik */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Dodanie animacji */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Cień dla głębi */
+}
+
+/* Efekt po najechaniu na przycisk */
+.button:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Jaśniejsze tło na hover */
+    transform: scale(1.05); /* Delikatne powiększenie przycisku */
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.5); /* Zwiększenie cienia */
+}
+
+/* Aktywacja po kliknięciu */
+.button:active {
+    transform: scale(0.98); /* Zmniejszenie przycisku na chwilę */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5); /* Mniejszy cień przy kliknięciu */
+}
+
+/* Styl tekstu w przycisku */
+.button-text {
+    font-family: 'Afacad Flux', sans-serif; /* Twoja czcionka */
+    font-weight: bold;
+    letter-spacing: 1px; /* Delikatne rozciągnięcie liter */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Cień dla tekstu */
+}
+

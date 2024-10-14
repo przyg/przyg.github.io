@@ -150,3 +150,28 @@ body {
 body.loaded {
     opacity: 1; /* Po załadowaniu zmień przezroczystość na 1 */
 }
+
+.email {
+    font-size: 1.5em; /* Większa czcionka dla emaila */
+    margin: 10px 0; /* Odstępy */
+}
+
+.social-links {
+    margin: 20px 0; /* Odstępy między linkami */
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px; /* Odstępy między linkami */
+    font-size: 1.2em; /* Rozmiar czcionki */
+    transition: color 0.3s; /* Animacja zmiany koloru */
+}
+
+.social-links a:hover {
+    color: rgba(255, 255, 255, 0.7); /* Zmiana koloru na hover */
+}
+
+.discord-embed {
+    margin-top: 20px; /* Odstęp nad embedem */
+}
