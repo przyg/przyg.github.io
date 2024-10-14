@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: 'Afacad Flux', sans-serif;
+    background-image: url('../images/background.png'); /* Tło */
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.email {
+    font-size: 1.5em; /* Większa czcionka dla emaila */
+    margin: 10px 0; /* Odstępy */
+}
+
+.social-links {
+    margin: 20px 0; /* Odstępy między linkami */
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px; /* Odstępy między linkami */
+    font-size: 1.2em; /* Rozmiar czcionki */
+    transition: color 0.3s; /* Animacja zmiany koloru */
+}
+
+.social-links a:hover {
+    color: rgba(255, 255, 255, 0.7); /* Zmiana koloru na hover */
+}
+
+.discord-embed {
+    margin-top: 20px; /* Odstęp nad embedem */
+}
