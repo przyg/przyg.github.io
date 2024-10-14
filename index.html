@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <meta name="description" content="Projects and other things made by fly">
     <title>Fly's Projects</title>
@@ -8,13 +9,34 @@
     <link rel="icon" href="images/main.png">
     <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux&display=swap" rel="stylesheet">
     <meta name="keywords" content="Fly, flywheel, project, lau, python, html">
+
+    <script>
+        // Funkcja do wykrywania urządzenia
+        function detectDevice() {
+            const isMobile = /Mobi|Android/i.test(navigator.userAgent);
+            if (isMobile) {
+                document.body.classList.add('mobile');
+                // Możesz dodać dodatkowe style dla urządzeń mobilnych
+            } else {
+                document.body.classList.add('desktop');
+            }
+        }
+    
+        // Wywołaj funkcję po załadowaniu strony
+        window.onload = function() {
+            detectDevice();
+            document.body.classList.add('loaded');
+        };
+    </script>
+    
 </head>
 <body>
     <nav class="navbar">
         <ul>
-            <<li><a href="subsites/index2.html">More about me</a></li>
+            <li><a href="subsites/index2.html">More about me</a></li>
             <li><a href="subsites/index3.html">Projects</a></li>
-            <li><a href="subsites/contact.html">Contact me</a></li>            
+            <li><a href="subsites/contact.html">Contact me</a></li>
+            <li><a href="subsites/index4.html">Resources</a></li>            
         </ul>
     </nav>
     <div class="container">
@@ -57,5 +79,6 @@
             document.body.classList.add('loaded');
         };
     </script>
+    \
 </body>
 </html>

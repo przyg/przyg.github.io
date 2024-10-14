@@ -161,3 +161,12 @@ p {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Cień dla tekstu */
 }
 
+body.mobile .navbar {
+    flex-direction: column; /* Ustawienie nawigacji w kolumnie */
+    text-align: center; /* Wyrównanie tekstu do środka */
+}
+body.mobile .buttons {
+    flex-direction: column; /* Ustawienie przycisków w kolumnie */
+}
+/* Dodaj inne style, które chcesz zmienić dla mobilnych urządzeń */
+

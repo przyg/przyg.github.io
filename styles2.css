@@ -127,3 +127,12 @@ p {
 .play-button:hover .icon {
     transform: scale(1.1); /* Powiększenie ikony na hover */
 }
+
+body.mobile .navbar {
+    flex-direction: column; /* Ustawienie nawigacji w kolumnie */
+    text-align: center; /* Wyrównanie tekstu do środka */
+}
+body.mobile .buttons {
+    flex-direction: column; /* Ustawienie przycisków w kolumnie */
+}
+/* Dodaj inne style, które chcesz zmienić dla mobilnych urządzeń */
